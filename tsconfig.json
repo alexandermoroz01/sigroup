@@ -1,0 +1,32 @@
+{
+    "type": "module",
+    "compilerOptions": {
+        "module": "ESNext",
+        "target": "ESNext",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+        "lib": [
+            "es2022",
+            "DOM"
+        ],
+        "types": [
+            "node",
+            "@playwright/test",
+            "ts-node"
+        ],
+        "baseUrl": "./",
+        "paths": {
+            "@pages/*": [
+                "tests/pages/*"
+            ],
+            "@environment/*": [
+                "environment/*"
+            ],
+            "@fixtures/*": [
+                "fixtures/*"
+            ]
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "sigroup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:UI": "npx playwright test --ui",
+    "allure:generate": "allure generate allure-results --clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.14.0",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "allure-playwright": "^3.2.1",
+    "moment": "^2.30.1"
+  }
+}
